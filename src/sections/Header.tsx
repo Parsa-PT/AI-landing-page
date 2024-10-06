@@ -5,9 +5,10 @@ import Button from "@/components/Button";
 
 export const Header = () => {
   return (
-    <header className="py-4 border-b border-white/15 md:border-none sticky top-0 z-50">
+    <header className="py-4 border-b border-white/15 md:border-none sticky top-0 z-50 ">
+      <div className=" absolute inset-0 backdrop-blur -z-10 md:hidden"/>
       <div className="containerr px-5 md:px-0">
-        <div className=" flex justify-between items-center md:border  md:border-white/20 md:p-2.5 md:rounded-xl max-w-2xl  mx-auto backdrop-blur">
+        <div className=" flex justify-between items-center md:border  md:border-white/20 md:p-2.5 md:rounded-xl max-w-2xl  mx-auto  md:backdrop-blur ">
           <div>
             <div  className=" border h-10 w-10 rounded-lg flex justify-center items-center border-white/15">
               <LogoIcon className="h-8 w-8  "/>
